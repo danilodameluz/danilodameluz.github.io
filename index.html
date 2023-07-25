@@ -1,1 +1,99 @@
-Olá Mundo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h2>Filmes Populares</h2>
+    <div class="input-container">
+      <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
+      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
+    </div>
+    <div class="showOnlyFavorites">
+      <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
+      <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+    </div>
+    <div class="movies">
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Batman (2022)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="images/star.png" alt="Star Icon"/>
+                <span>9.2</span>
+              </div>
+              <div class="favorite">
+                <img src="images/heart.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="movie-description">
+          <span>Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="/images/forrest-gump-3.jpg" alt="Forest Gump (1994)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Forest Gump (1994)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="images/star.png" alt="Star Icon"/>
+                <span>9.8</span>
+              </div>
+              <div class="favorite">
+                <img src="images/heart.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="movie-description">
+          <span>Mesmo com o raciocínio lento, Forrest Gump nunca se sentiu desfavorecido. Graças ao apoio da mãe, ele teve uma vida normal. Seja no campo de futebol como um astro do esporte, lutando no Vietnã ou como capitão de um barco de pesca de camarão, Forrest inspira a todos com seu otimismo. Mas a pessoa que Forrest mais ama pode ser a mais difícil de salvar: seu amor de infância, a doce e perturbada Jenny.</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="/images/Homem-Aranha.jpeg" alt="Homem-Aranha: Sem volta para casa (2021)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Homem-Aranha: Sem volta para casa (2021)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="images/star.png" alt="Star Icon"/>
+                <span>9.9</span>
+              </div>
+              <div class="favorite">
+                <img src="images/heart.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="movie-description">
+          <span>Peter Parker está de volta. Após ter sua identidade secreta revelada, Spider-Man pede ajuda ao Doutor Estranho. Quando um feitiço para reverter o evento não sai como o esperado, o Homem-Aranha e seu companheiro dos Vingadores precisam enfrentar inimigos de todo o multiverso.</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
